@@ -1,0 +1,38 @@
+#root {
+  max-width: 1980px;
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  height:100%;
+  padding-bottom:  30px ;
+  /* background-color: #F8F8F8; */
+}
+
+.banner img  {
+   
+  max-width: 80%;
+   
+   
+}
+
+@media (max-width: 768px) {
+  
+
+nav-links {
+  display: none;
+}
+
+.container {
+  z-index: 3;
+}
+}
+
+
+
